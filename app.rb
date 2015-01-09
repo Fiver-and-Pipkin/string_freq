@@ -1,6 +1,14 @@
 require('sinatra')
 require('sinatra/reloader')
+also_reload('lib/**/*.rb')
+require('./lib/string_freq')
 
 get('/') do
-  erb(:home)
+  erb(:form)
+end
+
+get('/results') do
+    @word = params.fetch('chosen_word')
+    @total = params.fetch('total')
+    erb(:results)
 end
