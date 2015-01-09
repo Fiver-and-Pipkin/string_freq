@@ -1,6 +1,6 @@
 class String
   define_method(:string_frequency) do |list_of_words|
-    chosen_word = self
+    chosen_word = self.upcase()
     count = 1
 
     split_list = list_of_words.split(" ")
@@ -10,14 +10,13 @@ class String
     end
 
     frequency.each() do |hash_word, freq|
-    score = frequency.fetch(hash_word, freq)
+    score = frequency.fetch(hash_word)
 
-    if hash_word.eql?(chosen_word)
-      count = (freq)
-    else
-      false
-    end
+    # puts score
+    total = frequency[self]
+    return total
+
+
   end
-  count
-  end
+end
 end
