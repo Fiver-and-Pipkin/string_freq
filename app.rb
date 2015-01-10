@@ -8,7 +8,6 @@ get('/') do
 end
 
 get('/results') do
-
   @total = params.fetch("total")
   erb(:results)
 end

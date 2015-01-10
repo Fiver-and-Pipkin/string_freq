@@ -11,9 +11,8 @@ class String
 
     frequency.each() do |hash_word, freq|
       score = frequency.fetch(hash_word)
-      end
+    end
     total = frequency[self]
-    fetchy = total.to_s
     total
   end
 end
