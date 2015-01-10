@@ -9,18 +9,14 @@ Run Bundle to install required gems.
 
 Changelog:
 
-Add styling
-Add website files
-Write Rspec capitalization test - cannot get it to pass
-Initial test pass not correct - refactor code to make it pass
-Pass initial Rspec test
-Add initial files
+* Modified form and app.rb language to fetch correct results  (*Note: added after Friday's deadline.)
+* Add styling
+* Add website files
+* Write Rspec capitalization test - cannot get it to pass
+* Initial test pass not correct - refactor code to make it pass
+* Pass initial Rspec test
+* Add initial files
 
-
-Known Issues
-* Sinatra is not fetching appropriate results. (Not fetching anything, actually!
-  And not giving any errors.) Method returns accurate value, but suspect different approach
-  is probably necessary to make Sinatra fetch the value.
 
 License
 MIT license
