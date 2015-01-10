@@ -8,7 +8,7 @@ get('/') do
 end
 
 get('/results') do
-    @word = params.fetch('chosen_word')
-    @total = params.fetch('total')
-    erb(:results)
+
+  @total = params.fetch("total")
+  erb(:results)
 end
