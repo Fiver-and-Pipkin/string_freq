@@ -1,25 +1,49 @@
 String Frequency
+========
 
-Program to take a user's favorite word and favorite phrase and return the frequency
-of the number of times that word appears in the phrase.
+by Debbie Cravey
+
+String Frequency counts the number of times a user's favorite word appears in their entered string or phrase, regardless of capitalization.
 
 Installation
-Simple website files using Sinatra in Ruby 2.2.0.
-Run Bundle to install required gems.
+------------
 
-Changelog:
+Install String Frequency by first cloning the repository.  
 
-* Modified form and app.rb language to fetch correct results  (*Note: added after Friday's deadline.)
-* Add styling
-* Add website files
-* Write Rspec capitalization test - cannot get it to pass
-* Initial test pass not correct - refactor code to make it pass
-* Pass initial Rspec test
-* Add initial files
+```
+$ git clone https://github.com/dacravey/string_freq.git
+```
 
+Install all of the required gems:
+```
+$ bundle install
+```
+
+Start the webserver:
+```
+$ ruby app.rb
+```
+
+In your web browser, go to http://localhost:4567
+
+Contribute
+----------
+- Issue Tracker: github.com/dacravey/Phonebook/issues
+- Source Code: github.com/dacravey/Phonebook
+
+Support
+-------
+
+If you are having issues, please let me know at: cinder.the.rogue@gmail.com
+
+Bug reports
+===========
+
+If you discover any bugs, feel free to create an issue on GitHub. Please add as much information as possible to help with fixing the possible bug. I also welcome your help if you choose to fork and send a pull request.
+
+https://github.com/dacravey/repository/issues
 
 License
-MIT license
-Copyright 2014
+=======
 
-Author: Debbie Cravey
+MIT License. Copyright 2015 Debbie Cravey
